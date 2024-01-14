@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+background-color: black;
+}
+h1{
+    font-size: 50px;
+    margin: 0px;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    /* background-color: #9903f6; */
+    background: linear-gradient(90deg, #028dfe, #030bfa, #9903f6, #f704e3);
+
+    
+}
+.container{
+    margin: 40px 0 0 130px;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 1000px;
+    /* border: solid 1px black; */
+    height: 60px;
+    text-align: center;
+}
+.one, .two, .three, .four, .five{
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+button{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, sans-serif;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    /* border: none; */
+    background: #0000;
+    box-shadow: 5px -5px 7px rgb(37, 37, 37), -5px -5px 10px rgb(66, 28, 28);
+    /* box-shadow: 0 0 3px rgb(rgb(216, 5, 5), rgb(227, 154, 8), rgb(16, 16, 154)); */
+}
+/* button:hover{
+    background: tomato;
+    animation: animate 2s linear infinite;
+}
+@keyframes animate{
+    50%{
+        filter: hue-rotate(350deg);
+    }
+} */
+
+.same{
+    width: 75px;
+}
+.space{
+    width: 355.8px;
+    background-color: #fefe01;
+    color: black;
+}
+.space:hover{
+    background: linear-gradient(90deg, #028dfe, #030bfa, #9903f6, #f704e3);
+    cursor: pointer;
+    transition: 0.4s;
+    margin: 5px auto;
+    border: #fff solid 3px;
+    border-radius: 13px;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+.space i{
+margin-right: 24px;
+}
+.shift{
+    width: 170px;
+    background-color: #fefe01;
+    color: black;
+}
+.caps{
+    width:137px;
+    background-color: #fefe01;
+    color: black;
+}
+.tab{
+    width: 120px;
+    background-color: #fefe01;
+    color: black;
+}
+.slide{
+    width: 90px;
+    background-color: #fefe01;
+    color: black;
+}
+.backspace{
+    width: 150px;
+    background-color: #fefe01;
+    color: black;
+    padding: 9px;
+}
+.backspace i{
+    padding: 2px ;
+}
+.backspace:hover{
+    background: linear-gradient(90deg, #028dfe, #030bfa, #9903f6, #f704e3);
+    font-size: 25px;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 13px;
+    color: #fff;
+}
+.shift:hover{
+    background: linear-gradient(90deg, #028dfe, #030bfa, #9903f6, #f704e3);
+    font-size: 25px;
+    border: solid #fff 3px;
+    border-radius: 13px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.caps:hover{
+    background: linear-gradient(90deg, #028dfe, #030bfa, #9903f6, #f704e3);
+    transition: 0.4s;
+    font-size: 25px;
+    color: #fff;
+    border: solid #fff 3px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.slide:hover{
+    background: linear-gradient(90deg, #028dfe, #030bfa, #9903f6, #f704e3);
+    transition: 0.4s;
+    font-size: 25px;
+    border: solid #fff 3px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 13px;
+    color: #fff;
+}
+.tab:hover{
+    background: linear-gradient(90deg, #028dfe, #030bfa, #9903f6, #f704e3);
+    border: solid #fff 3px;
+    border-radius: 13px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s;
+    font-size: 25px;
+}
+.same:hover{
+    background: linear-gradient(45deg, #fd9003, #fc0101, #540303);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.4s;
+    border: 2px solid #fff;
+    padding: 5px;
+    
+}
+.telda{
+    background-color: #fefe01;
+    color: black;
+}
+.telda:hover{
+    background: linear-gradient(45deg, #028dfe, #030bfa, #9903f6, #f704e3);
+    border: solid 2px #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #fff;
+}
+.symbol:hover{
+    background: linear-gradient(45deg, #fd9003, #fc0101, #540303);
+    cursor: pointer;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.counting:hover{
+    background: linear-gradient(45deg, #0d5d9f, #00d9ff);
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: solid #fff 3px;
+}
+.alpha:hover{
+    border-radius: 13px;
+    border: solid #fff 3px;
+    transition: 0.4s;
+    font-size: 25px;
+    background: linear-gradient(45deg, #028dfe, #030bfa, #9903f6, #f704e3);
+    animation: animate 2.2s linear infinite;
+}
+@keyframes animate{
+    50%{
+        filter: hue-rotate(-360deg);
+    }
+}
+.window:hover{
+    background: linear-gradient(45deg, #fd9003, #fc0101, #540303);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.4s;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px;
+}
+.window{
+    color: black;
+    background-color: #fefe01;
+}
